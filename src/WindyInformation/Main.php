@@ -1,10 +1,12 @@
 <?php
 namespace WindyInformations;
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+
 class Main extends PluginBase implements Listener {
 	
 	public function onEnable( ) {
@@ -12,3 +14,4 @@ class Main extends PluginBase implements Listener {
 	       	$this->saveDefaultConfig();
                 $this->getLogger( )->info(TextFormat::GREEN . "Windy Information Enabled - Izual");
         }
+}
