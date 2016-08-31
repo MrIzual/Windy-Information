@@ -1,0 +1,23 @@
+name: WindyInformation
+author: MrIzual
+api: 2.0.0
+load: POSTWORLD
+main: WindyInformation\Main
+version: 1.0.0
+description: A Information Plugin 
+
+permissions:
+    info:
+        default: false
+        description: "Show all info about server"
+        children:
+          info.event:
+            default: false
+            description: Show all Event Info
+          info.staff:
+            default: false
+            description: Show all Staff Info
+          info.server:
+            default: false
+            description: Show all Server Info
+            
